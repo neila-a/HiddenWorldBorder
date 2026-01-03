@@ -1,0 +1,3 @@
+files:
+  - source: /common/src/main/resources/assets/hiddenworldborder/lang/*.json
+    translation: /common/src/main/resources/assets/hiddenworldborder/lang/%locale%.json
