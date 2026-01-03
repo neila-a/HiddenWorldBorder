@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "quilt_loader": {
+    "group": "vip.neila.hiddenworldborder",
+    "id": "hiddenworldborder",
+    "version": "${version}",
+    "metadata": {
+      "name": "Hidden World Border",
+      "description": "Hide the world border.",
+      "contributors": {
+        "Neila": "Owner"
+      },
+      "contact": {
+        "homepage": "https://github.com/neila-a/HiddenWorldBorder",
+        "sources": "https://github.com/neila-a/HiddenWorldBorder",
+        "issues": "https://github.com/neila-a/HiddenWorldBorder/issues"
+      },
+      "icon": "assets/hiddenworldborder/icon.png"
+    },
+    "intermediate_mappings": "net.fabricmc:intermediary",
+    "entrypoints": {
+      "init": "vip.neila.hiddenworldborder.quilt.HiddenWorldBorderQuilt"
+    },
+    "depends": [
+      {
+        "id": "quilt_loader",
+        "versions": ">=0.29.2"
+      },
+      {
+        "id": "minecraft",
+        "versions": "~1.21.11"
+      }
+    ]
+  },
+  "mixin": "hiddenworldborder.mixins.json"
+}

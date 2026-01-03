@@ -1,0 +1,25 @@
+pluginManagement {
+    repositories {
+        maven { url "https://maven.aliyun.com/repository/public/" }
+        maven { url "https://maven.aliyun.com/repository/spring/" }
+        maven { url "https://maven.aliyun.com/repository/google/" }
+        maven { url "https://maven.aliyun.com/repository/gradle-plugin/" }
+        maven { url "https://maven.aliyun.com/repository/spring-plugin/" }
+        maven { url "https://maven.aliyun.com/repository/grails-core/" }
+        maven { url "https://maven.aliyun.com/repository/apache-snapshots/" }
+
+        maven { url "https://maven.quiltmc.org/repository/release/" }
+        maven { url "https://maven.fabricmc.net/" }
+        maven { url "https://maven.architectury.dev/" }
+        maven { url "https://maven.minecraftforge.net" }
+        gradlePluginPortal()
+    }
+}
+
+rootProject.name = "hiddenworldborder"
+
+include "common"
+include "fabric"
+include "neoforge"
+include "quilt"
+include "forge"

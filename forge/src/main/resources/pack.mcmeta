@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "Resources for Hidden World Border",
+    "pack_format": 75.0,
+    "_comment": "I don't know why, but this mod is also required by Forge to have resource package information."
+  }
+}
