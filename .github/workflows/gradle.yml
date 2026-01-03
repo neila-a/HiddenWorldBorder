@@ -29,8 +29,15 @@ jobs:
 
     - name: Build with Gradle
       run: gradle build
-      
+
+  upload:
+    runs-on: ubuntu-latest
+    needs: [build]
+    strategy:
+      matrix:
+        platform: [fabric, quilt, neoforge, forge]
+    steps:
     - uses: actions/upload-artifact@v4
       with:
-        name: Mod jar
-        path: "*/build/libs/*[0-9].jar"
+        name: Mod jar on ${{ matrix.platform }} platform
+        path: "${{ matrix.platform }}/build/libs/*[0-9].jar"
