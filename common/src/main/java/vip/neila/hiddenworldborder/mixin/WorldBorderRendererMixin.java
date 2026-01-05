@@ -12,7 +12,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class WorldBorderRendererMixin {
     @Inject(method = "render", at = @At("HEAD"), cancellable = true)
     public void emptyRender(WorldBorderRenderState worldBorderRenderState, Vec3 vec3, double d, double e, CallbackInfo info) {
-        System.out.println("WorldBorderRendererMixin::emptyRender");
         info.cancel();
     }
 }
