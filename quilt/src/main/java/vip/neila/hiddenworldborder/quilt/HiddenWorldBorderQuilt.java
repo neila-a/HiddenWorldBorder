@@ -1,6 +1,6 @@
-package vip.neila.hiddenworldborder.quilt;
+package top.neila.hiddenworldborder.quilt;
 
-import vip.neila.hiddenworldborder.HiddenWorldBorder;
+import top.neila.hiddenworldborder.HiddenWorldBorder;
 import net.fabricmc.api.ModInitializer;
 
 public final class HiddenWorldBorderQuilt implements ModInitializer {

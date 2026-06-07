@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "quilt_loader": {
-    "group": "vip.neila.hiddenworldborder",
+    "group": "top.neila.hiddenworldborder",
     "id": "hiddenworldborder",
     "version": "${version}",
     "metadata": {
@@ -19,7 +19,7 @@
     },
     "intermediate_mappings": "net.fabricmc:intermediary",
     "entrypoints": {
-      "init": "vip.neila.hiddenworldborder.quilt.HiddenWorldBorderQuilt"
+      "init": "top.neila.hiddenworldborder.quilt.HiddenWorldBorderQuilt"
     },
     "depends": [
       {

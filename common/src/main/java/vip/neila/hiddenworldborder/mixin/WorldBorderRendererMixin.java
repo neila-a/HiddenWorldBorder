@@ -1,4 +1,4 @@
-package vip.neila.hiddenworldborder.mixin;
+package top.neila.hiddenworldborder.mixin;
 
 import net.minecraft.client.renderer.WorldBorderRenderer;
 import net.minecraft.client.renderer.state.WorldBorderRenderState;

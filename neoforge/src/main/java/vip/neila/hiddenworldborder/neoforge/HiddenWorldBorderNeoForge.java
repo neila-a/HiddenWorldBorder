@@ -1,6 +1,6 @@
-package vip.neila.hiddenworldborder.neoforge;
+package top.neila.hiddenworldborder.neoforge;
 
-import vip.neila.hiddenworldborder.HiddenWorldBorder;
+import top.neila.hiddenworldborder.HiddenWorldBorder;
 import net.neoforged.fml.common.Mod;
 
 @Mod(HiddenWorldBorder.MOD_ID)

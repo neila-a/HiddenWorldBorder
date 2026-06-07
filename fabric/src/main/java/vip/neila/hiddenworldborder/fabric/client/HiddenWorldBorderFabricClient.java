@@ -1,4 +1,4 @@
-package vip.neila.hiddenworldborder.fabric.client;
+package top.neila.hiddenworldborder.fabric.client;
 
 import net.fabricmc.api.ClientModInitializer;
 

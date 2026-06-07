@@ -15,10 +15,10 @@
   "icon": "assets/hiddenworldborder/icon.png",
   "entrypoints": {
     "main": [
-      "vip.neila.hiddenworldborder.fabric.HiddenWorldBorderFabric"
+      "top.neila.hiddenworldborder.fabric.HiddenWorldBorderFabric"
     ],
     "client": [
-      "vip.neila.hiddenworldborder.fabric.client.HiddenWorldBorderFabricClient"
+      "top.neila.hiddenworldborder.fabric.client.HiddenWorldBorderFabricClient"
     ]
   },
   "mixins": [
