@@ -1,0 +1,35 @@
+{
+	"schemaVersion": 1,
+	"id": "hidden-world-border",
+	"environment": "client",
+	"version": "${version}",
+	"name": "Hidden World Border",
+	"description": "Hide the world border.",
+	"authors": [
+		"Neila"
+	],
+	"contact": {
+		"homepage": "https://github.com/neila-a/HiddenWorldBorder",
+		"sources": "https://github.com/neila-a/HiddenWorldBorder",
+		"issues": "https://github.com/neila-a/HiddenWorldBorder/issues"
+	},
+	"license": "GPL-3.0",
+	"icon": "assets/hidden-world-border/icon.png",
+	"entrypoints": {
+		"main": [
+			{
+				"value": "top.neila.hiddenworldborder.HiddenWorldBorder",
+				"adapter": "kotlin"
+			}
+		]
+	},
+	"mixins": [
+		"hidden-world-border.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-language-kotlin": "*"
+	}
+}

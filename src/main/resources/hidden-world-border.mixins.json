@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "top.neila.hiddenworldborder.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"WorldBorderRendererMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
