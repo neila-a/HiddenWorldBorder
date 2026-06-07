@@ -1,5 +1,5 @@
 pluginManagement {
-	repositories {
+	System.getenv("IS_GITHUB_ACTION") ?: repositories {
         maven {
 			url = uri("https://maven.aliyun.com/repository/public/")
 		}
@@ -22,6 +22,8 @@ pluginManagement {
 			url = uri("https://maven.aliyun.com/repository/apache-snapshots/")
 		}
 
+	}
+	repositories {
 		maven {
 			name = "Fabric"
 			url = uri("https://maven.fabricmc.net/")
